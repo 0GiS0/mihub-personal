@@ -3,34 +3,46 @@
   "description": "Una app para organizar tareas y proyectos personales, de trabajo en Microsoft, YouTube, blog y colaboraciones externas en un solo lugar.",
   "requirements": [
     {
-      "title": "Página de inicio",
-      "description": "Landing page principal con información del producto",
-      "priority": "alta"
+      "id": 1,
+      "title": "Añadir tareas del día",
+      "description": "El usuario puede añadir tareas que tiene en mente para el día actual, liberando así su \"caché mental\" y organizando lo que tiene que hacer",
+      "type": "feature",
+      "priority": "high"
     },
     {
-      "title": "Autenticación de usuarios",
-      "description": "Login y registro con validación de formularios",
-      "priority": "alta"
+      "id": 2,
+      "title": "Crear lista de tareas matutina",
+      "description": "El usuario puede crear una lista de tareas inicial por la mañana para planificar su día",
+      "type": "feature",
+      "priority": "high"
     },
     {
-      "title": "Panel de administración",
-      "description": "Dashboard para gestionar los datos de la aplicación",
-      "priority": "media"
+      "id": 3,
+      "title": "Añadir tareas en cualquier momento",
+      "description": "El usuario puede ir añadiendo nuevas tareas a la lista a lo largo del día, no solo por la mañana",
+      "type": "feature",
+      "priority": "high"
     },
     {
-      "title": "API REST completa",
-      "description": "Endpoints CRUD para todas las entidades del dominio",
-      "priority": "alta"
+      "id": 4,
+      "title": "Priorizar tareas",
+      "description": "El usuario puede marcar o ordenar sus tareas según importancia para saber qué hacer primero",
+      "type": "feature",
+      "priority": "high"
     },
     {
-      "title": "Diseño responsive",
-      "description": "Interfaz adaptada a móvil, tablet y escritorio",
-      "priority": "media"
+      "id": 5,
+      "title": "Priorizar por fecha de entrega",
+      "description": "La app ordena automáticamente los elementos en la lista poniendo primero los que tienen fecha de entrega (los más urgentes arriba). Los que no tienen fecha aparecen después, ya que no son tan urgentes.",
+      "type": "feature",
+      "priority": "high"
     },
     {
-      "title": "Tests unitarios",
-      "description": "Cobertura de tests para la lógica de negocio principal",
-      "priority": "baja"
+      "id": 6,
+      "title": "Añadir fecha de entrega opcional",
+      "description": "El usuario puede asignar una fecha de entrega a cada elemento, pero no es obligatorio. Algunos elementos pueden no tener fecha si no hay urgencia definida.",
+      "type": "feature",
+      "priority": "high"
     }
   ]
 }
